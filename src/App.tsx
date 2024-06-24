@@ -9,8 +9,7 @@ import Layout from "./Layout/Layout";
 import Home from "./Layout/Routes/Home/Home";
 import About from "./Layout/Routes/About/About";
 import Contact from "./Layout/Routes/Contact/Contact";
-import Menu from "./Layout/Routes/Menu/Menu";
-import MenuItem from "./Layout/Routes/Menu/MenuItem/MenuItem";
+
 function App() {
   const routes = createBrowserRouter([
     {

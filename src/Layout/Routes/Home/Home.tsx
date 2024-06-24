@@ -1,7 +1,7 @@
 import { Testimony } from "../Testimony/Testimony";
 import About from "../About/About";
 import { Address } from "../Address/Address";
-import Contact from "../Contact/Contact";
+
 import Menu from "../Menu/Menu";
 import EmblaCarousel from "../components/EmblaCarousel";
 import { Footer } from "../Footer/Footer";
