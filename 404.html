@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>404</title>
+  <script type="text/javascript">
+    // Redirect all 404 requests to index.html
+    var path = window.location.pathname;
+    var redirect = '/vk2k' + path + (path.endsWith('/') ? '' : '/') + 'index.html';
+    window.location.replace(redirect);
+  </script>
+</head>
+<body>
+</body>
+</html>
