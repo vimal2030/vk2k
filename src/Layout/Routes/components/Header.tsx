@@ -1,6 +1,7 @@
 // import "../../../App.css";
 
 import { useEffect, useState } from 'react';
+import '@css';
 
 export const Header = () => {
   const [isFixed, setIsFixed] = useState(false);
