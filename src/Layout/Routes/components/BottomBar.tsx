@@ -1,14 +1,12 @@
-
-
 export const BottomBar = () => {
   const navLinks = [
     {
-      name: "Shop",
-      icon: "../../../assets/home_icon.svg",
+      name: 'Shop',
+      icon: '/home_icon.svg',
     },
     {
-      name: "Search",
-      icon: "../../../assets/search_icon.svg",
+      name: 'Search',
+      icon: '/search_icon.svg',
     },
   ];
   return (
@@ -35,7 +33,7 @@ export const BottomBar = () => {
         })}
         <a href="" className="flex flex-col items-center gap-[5px]">
           <img
-            src="../src/assets/mobile_cart.svg"
+            src="/mobile_cart.svg"
             className="h-[25px] w-[25px] bg-contain bg-no-repeat"
           ></img>
           <span>Cart</span>
@@ -44,7 +42,7 @@ export const BottomBar = () => {
         <a href="" className="text-brown  flex flex-col items-center gap-[3px]">
           <span>
             <img
-              src="../../../assets/about.jpg"
+              src="/about.jpg"
               className="h-[25px] w-[25px] rounded-[32px]"
               alt=""
             />
