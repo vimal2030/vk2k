@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImage from "src/assets/about.jpg"; // Adjust the path as needed
+import aboutImage from "../../../assets/about.jpg"; // Adjust the path as needed
 
 type PropType = {
   title: string;
