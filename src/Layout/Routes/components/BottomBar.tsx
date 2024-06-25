@@ -1,7 +1,8 @@
-import homeIcon from '../../../../assets/home_icon.svg';
-import searchIcon from '../../../../assets/search_icon.svg';
-import mobileCartIcon from '../../../../assets/mobile_cart.svg';
-import aboutIcon from '../../../../assets/about.jpg';
+
+import homeIcon from '@assets/home_icon.svg';
+import searchIcon from '@assets/search_icon.svg';
+import mobileCartIcon from '@assets/mobile_cart.svg';
+import aboutIcon from '@assets/about.jpg';
 
 export const BottomBar = () => {
   const navLinks = [
