@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import cartShoppingIcon from "../../assets/cart_shopping_icon.svg";
+import cartShoppingIcon from "../cart_shopping_icon.svg";
 
 export const Header = () => {
   const [isFixed, setIsFixed] = useState(false);
